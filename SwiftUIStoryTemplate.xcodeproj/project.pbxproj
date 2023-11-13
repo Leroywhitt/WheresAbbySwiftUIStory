@@ -16,6 +16,9 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		95DC41642B02CA7000F81C13 /* ch3pg1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC41632B02CA7000F81C13 /* ch3pg1.swift */; };
+		95DC41662B02CA7800F81C13 /* ch3pg2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC41652B02CA7800F81C13 /* ch3pg2.swift */; };
+		95DC41682B02CA7E00F81C13 /* ch3pg3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC41672B02CA7E00F81C13 /* ch3pg3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		95DC41632B02CA7000F81C13 /* ch3pg1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch3pg1.swift; sourceTree = "<group>"; };
+		95DC41652B02CA7800F81C13 /* ch3pg2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch3pg2.swift; sourceTree = "<group>"; };
+		95DC41672B02CA7E00F81C13 /* ch3pg3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch3pg3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */,
+				95DC41632B02CA7000F81C13 /* ch3pg1.swift */,
+				95DC41652B02CA7800F81C13 /* ch3pg2.swift */,
+				95DC41672B02CA7E00F81C13 /* ch3pg3.swift */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -197,8 +206,11 @@
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
+				95DC41642B02CA7000F81C13 /* ch3pg1.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
+				95DC41662B02CA7800F81C13 /* ch3pg2.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
+				95DC41682B02CA7E00F81C13 /* ch3pg3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
