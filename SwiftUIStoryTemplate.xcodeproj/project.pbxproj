@@ -32,6 +32,7 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		61F009C42B03E3170090AFDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		95DC41632B02CA7000F81C13 /* ch3pg1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch3pg1.swift; sourceTree = "<group>"; };
 		95DC41652B02CA7800F81C13 /* ch3pg2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch3pg2.swift; sourceTree = "<group>"; };
 		95DC41672B02CA7E00F81C13 /* ch3pg3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch3pg3.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		5DE6F6632AFADF05004ABB4F = {
 			isa = PBXGroup;
 			children = (
+				61F009C42B03E3170090AFDF /* README.md */,
 				5DE6F66E2AFADF05004ABB4F /* SwiftUIStoryTemplate */,
 				5DE6F66D2AFADF05004ABB4F /* Products */,
 			);
