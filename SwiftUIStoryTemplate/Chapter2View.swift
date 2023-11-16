@@ -3,11 +3,20 @@ import SwiftUI
 struct Chapter2View: View {
     var body: some View {
         
-        // Added a ZStack to include my image. Thie view will show the audio version for users who want to just listen to my book.
+        // Added a VStack to include my text "Where's Abby"
+        
         VStack {
             Spacer()
         Text("Where's Abby")
-            Spacer()
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+        Text("Chapter 2")
+            
+          //  Image("airplayaudio.fill")
+          //      .resizable()
+          //     .frame(height:10)
+          //     .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+
+        // Added a ZStack to include my image.
 
             ZStack {
               
@@ -15,13 +24,11 @@ struct Chapter2View: View {
                     .resizable()
                     .frame(height: 300)
                     .opacity(0.9)
-                
-                // Added a HStack below image to show a brief overview of chapter and book.
                 }
             .padding()
             
             HStack {
-                    Text("Chapter 2: Abby now realizes that she is lost with no way of figuring out how she will make it home. Her phone is dead.")
+                    Text("Abby now realizes that she is lost with no way of figuring out how she will make it home. Her phone is dead. what will she do. She begins to cry.")
                         .font(.title)
                         .bold()
                    
@@ -43,20 +50,9 @@ struct Chapter2View: View {
 
                 Image(systemName: "forward.fill")
                     .font(.title)
-
-                
-                
-                
-                
                 
             }
             .padding()
-                   
-            
-            
-            
-            
-            
             
             
             }
