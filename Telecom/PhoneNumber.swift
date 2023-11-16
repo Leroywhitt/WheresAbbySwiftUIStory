@@ -35,12 +35,10 @@ struct PhoneNumber: CustomStringConvertible, Equatable, Hashable {
     }
     
     static func random(country: Int = 1, area: Int) -> PhoneNumber {
-        var number = PhoneNumber(areaCode: area, prefix: 999, line: 0)
-        var exclusionFlag = true
-        while exclusionFlag {
+        var number: PhoneNumber
+        repeat {
             number = PhoneNumber(areaCode: area, prefix: 555, line: Int.random(in: 10...9989))
-            exclusionFlag = includesExclusion(number)
-        }
+        } while includesExclusion(number)
         return number
     }
     
