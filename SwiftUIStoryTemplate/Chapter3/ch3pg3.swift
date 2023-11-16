@@ -20,6 +20,7 @@ struct ch3pg3: View {
                 Spacer()
                 Spacer()
                 Spacer()
+                Spacer()
                 ZStack {
                     RoundedRectangle(cornerRadius: 20)
                         .padding()

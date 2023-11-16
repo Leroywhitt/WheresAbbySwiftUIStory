@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "blind girl in a tunnel SDXL 10 K_DPMPP_2M 3240232680 Vibrant (1).jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

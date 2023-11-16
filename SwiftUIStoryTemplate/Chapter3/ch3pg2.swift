@@ -14,9 +14,10 @@ struct ch3pg2: View {
             Image("pic2")
                 .resizable(capInsets: EdgeInsets(top: 0.0, leading: 20.0, bottom: 0.0, trailing: 20.0), resizingMode: .stretch)
                 .padding()
-                .frame(width: 700.0, height: 900.0)
+                .frame(width: 450.0, height: 900.0)
             
             VStack {
+                Spacer()
                 Spacer()
                 Spacer()
                 Spacer()

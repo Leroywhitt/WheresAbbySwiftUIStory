@@ -13,7 +13,7 @@ struct ch3pg1: View {
 
             Image("lightning")
                 .resizable()
-                .frame(height: 900)
+                .frame(width: 700, height: 900)
                 .opacity(0.7)
             Image("pic1")
                 .resizable(capInsets: EdgeInsets(top: 100.0, leading: 0.0, bottom: 100.0, trailing: 0.0), resizingMode: .stretch)
@@ -23,7 +23,7 @@ struct ch3pg1: View {
                 Spacer()
                 Spacer()
                 Spacer()
-                
+                Spacer()
                 ZStack {
                     RoundedRectangle(cornerRadius: 20)
                         .padding()
