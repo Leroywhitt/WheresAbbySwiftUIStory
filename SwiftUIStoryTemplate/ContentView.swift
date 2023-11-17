@@ -4,7 +4,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
             
-            
+ //tabview is to create tabs at bottom of screen
             TabView {
                 Chapter1View()
                     .tabItem {
