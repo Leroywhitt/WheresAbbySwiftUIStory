@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StrobeView: View {
-  
+// I used the @State variable to track the current background color, as i wanted it to change at a certain time interval to give the illusion of a strobe. 
         @State var currentColor: Color = .white
         let colors: [Color] = [.black, .white, .white, .white, .white, .white, .white, .white, .white]
             @State var colorIndex = 0

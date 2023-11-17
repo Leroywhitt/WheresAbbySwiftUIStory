@@ -14,7 +14,7 @@ struct ContentView: View {
                     .tabItem {
                         Label("Chapter 2", systemImage: "book.pages.fill")
                     }
-                
+//I also used the navigation stack and navigation link to navigate from the tab view to my chapter 3 view.
                 NavigationLink("Chapter 3", destination: Chapter3View())
                     .tabItem {
                         Label("Chapter 3", systemImage: "book.pages.fill")
