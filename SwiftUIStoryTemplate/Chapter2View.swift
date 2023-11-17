@@ -28,7 +28,7 @@ struct Chapter2View: View {
             .padding()
             
             HStack {
-                    Text("Abby now realizes that she is lost with no way of figuring out how she will make it home. Her phone is dead. what will she do. She begins to cry.")
+                    Text("Siri, Where am I! With no answer, Abby now realizes that she is lost with no way of figuring out how she will make it home. Her phone is dead. What will she do. She begins to cry.")
                         .font(.title)
                         .bold()
                    
