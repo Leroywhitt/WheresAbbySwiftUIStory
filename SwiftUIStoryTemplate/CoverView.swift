@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CoverView: View {
     var body: some View {
-       
+//We used the navigation stack and the navigation link to navigate you from our book cover to the view with our chapters.
         NavigationStack {
         
             ZStack {

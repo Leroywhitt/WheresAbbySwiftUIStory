@@ -23,7 +23,6 @@
 		95DC41662B02CA7800F81C13 /* ch3pg2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC41652B02CA7800F81C13 /* ch3pg2.swift */; };
 		95DC41682B02CA7E00F81C13 /* ch3pg3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC41672B02CA7E00F81C13 /* ch3pg3.swift */; };
 		95DC41882B044A4C00F81C13 /* StrobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC41872B044A4C00F81C13 /* StrobeView.swift */; };
-		95DC418A2B04554000F81C13 /* lightningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC41892B04554000F81C13 /* lightningView.swift */; };
 		95DC418E2B069E5700F81C13 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC418D2B069E5700F81C13 /* CoverView.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +56,6 @@
 		95DC41652B02CA7800F81C13 /* ch3pg2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch3pg2.swift; sourceTree = "<group>"; };
 		95DC41672B02CA7E00F81C13 /* ch3pg3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ch3pg3.swift; sourceTree = "<group>"; };
 		95DC41872B044A4C00F81C13 /* StrobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrobeView.swift; sourceTree = "<group>"; };
-		95DC41892B04554000F81C13 /* lightningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightningView.swift; sourceTree = "<group>"; };
 		95DC418D2B069E5700F81C13 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,7 +146,6 @@
 				95DC41652B02CA7800F81C13 /* ch3pg2.swift */,
 				95DC41672B02CA7E00F81C13 /* ch3pg3.swift */,
 				95DC41872B044A4C00F81C13 /* StrobeView.swift */,
-				95DC41892B04554000F81C13 /* lightningView.swift */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -300,7 +297,6 @@
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
-				95DC418A2B04554000F81C13 /* lightningView.swift in Sources */,
 				95DC41642B02CA7000F81C13 /* ch3pg1.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				95DC41662B02CA7800F81C13 /* ch3pg2.swift in Sources */,
