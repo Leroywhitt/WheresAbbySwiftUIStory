@@ -4,7 +4,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
             
-            
+        NavigationStack {
             TabView {
                 Chapter1View()
                     .tabItem {
@@ -14,7 +14,8 @@ struct ContentView: View {
                     .tabItem {
                         Label("Chapter 2", systemImage: "book.pages.fill")
                     }
-                Chapter3View()
+                
+                NavigationLink("Chapter 3", destination: Chapter3View())
                     .tabItem {
                         Label("Chapter 3", systemImage: "book.pages.fill")
                     }
@@ -29,8 +30,8 @@ struct ContentView: View {
                     .padding()
                 
             }
-                
             
+        }
         }
     }
 
