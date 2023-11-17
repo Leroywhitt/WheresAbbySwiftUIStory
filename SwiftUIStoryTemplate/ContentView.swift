@@ -8,9 +8,6 @@ struct ContentView: View {
         NavigationStack {
 
             TabView {
-                homepage()
-                    .tabItem {
-                        Label("homepage", systemImage: "book.pages.fill")}
                 Chapter1View()
                     .tabItem {
                         Label("Chapter 1", systemImage: "book.pages.fill")
